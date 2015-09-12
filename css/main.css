@@ -15,6 +15,7 @@ body {
 img {
   width: 100%;
   display: block;
+  padding: 1em;
 }
 
 .masthead {
@@ -26,6 +27,14 @@ img {
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
 }
 
 nav li {
@@ -54,11 +63,17 @@ div {
   clear: both;
 }
 
-p {
+.text {
   margin: 0;
   padding: 3em 15px 1em;
   color: #fff;
   font-size: 1.125rem;
   font-weight: bold;
   text-align: center;
+}
+
+.atlantis {
+  padding: calc(2em + 20vw) 0 0;
+  background: url("../images/atlantis.jpg") center center / cover no-repeat;
+  clear: both;
 }
