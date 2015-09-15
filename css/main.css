@@ -10,6 +10,7 @@ body {
   margin: 0;
   min-height: 100vh;
   line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -27,14 +28,39 @@ img {
 
 h1 {
   text-align: center;
+  font-size: 28px;
 }
 
 h2 {
   text-align: center;
+  padding: .5em;
+  margin: 0;
+  clear: both;
+  font-size: 24px;
 }
 
 h3 {
   margin: 0;
+  clear: both;
+  padding: .25em .25em .25em 1em;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center1 {
+  text-align: center;
+  padding-top: .5em;
+}
+
+nav {
+  font-family: 'Lora', serif;
+  margin: 0;
+  background-color: lightblue;
+  color: black;
+  font-size: 12px;
 }
 
 nav li {
@@ -47,9 +73,15 @@ nav li {
 nav a {
   text-decoration: none;
   display: block;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  padding: 0.25em 1em 1em 1em;
+  color: black;
+}
+
+nav ol {
+  text-align: center;
   padding: 0;
 }
 
@@ -57,18 +89,54 @@ figure {
   margin: 0;
 }
 
-div {
+.first {
   padding: calc(2em + 20vw) 0 0;
   background: url("../images/seven-wonders.jpg") center center / cover no-repeat;
   clear: both;
+  text-align: center;
 }
 
 .text {
   margin: 0;
-  padding: 3em 15px 1em;
+  padding: .25em;
   color: #fff;
-  font-size: 1.125rem;
+  font-size: 0.75em;
+  text-align: center;
+  width: 100%;
+  bottom: 30%;
+  line-height: 100%;
+  padding: 0.5em;
+}
+
+strong {
   font-weight: bold;
+  font-size: 1.45em;
+  color: #fff;
+  bottom: 30%;
+  line-height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.text1 {
+  margin: 0;
+  padding: .25em;
+  color: #fff;
+  font-size: 0.75em;
+  text-align: center;
+  width: 100%;
+  bottom: 60%;
+  line-height: 100%;
+  padding: 0.5em;
+}
+
+.alt {
+  font-weight: bold;
+  font-size: 1.45em;
+  color: #fff;
+  bottom: 60%;
+  line-height: 100%;
+  margin: 0;
   text-align: center;
 }
 
@@ -76,4 +144,101 @@ div {
   padding: calc(2em + 20vw) 0 0;
   background: url("../images/atlantis.jpg") center center / cover no-repeat;
   clear: both;
+  text-align: center;
+}
+
+.more {
+  background-color: lightblue;
+  margin: 1em;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  clear: both;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn1 {
+  width: 100%;
+}
+
+.btn1 a {
+  width: 40%;
+  text-align: center;
+  margin-right: 1em;
+  color: black;
+}
+
+.one {
+  float: left;
+  display: block;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+}
+
+.two {
+  float: right;
+  display: block;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.three {
+  float: left;
+  clear: left;
+  display: block;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+}
+
+.four {
+  float: right;
+  display: block;
+  clear: right;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.btn2 {
+  width: 100%;
+}
+
+.btn2 a {
+  width: 40%;
+  text-align: center;
+  margin-right: 1em;
+  color: black;
+}
+
+.show {
+  background-color: lightblue;
+  color: black;
+  text-decoration: none;
+  padding: 0.25em;
+}
+
+li {
+  list-style-type: none;
+}
+
+ol {
+  padding: 0em 0em 1em 0em;
+  margin: 0;
 }
