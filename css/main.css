@@ -242,3 +242,34 @@ ol {
   padding: 0em 0em 1em 0em;
   margin: 0;
 }
+
+.left {
+  float: left;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  padding: 0em 0.25em 0em 1em;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  padding: 0em 1em 0em 0em;
+}
+
+.middle {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+dd {
+  margin: 0;
+}
+
+dl {
+  display: block;
+  position: relative;
+}
