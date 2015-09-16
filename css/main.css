@@ -1,5 +1,16 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
 html {
   box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -58,9 +69,9 @@ h3 {
 nav {
   font-family: 'Lora', serif;
   margin: 0;
-  background-color: lightblue;
   color: black;
   font-size: 12px;
+  background-color: lightblue;
 }
 
 nav li {
@@ -75,14 +86,15 @@ nav a {
   display: block;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
   padding: 0.25em 1em 1em 1em;
   color: black;
+  background-color: lightblue;
 }
 
 nav ol {
   text-align: center;
   padding: 0;
+  overflow: hidden;
 }
 
 figure {
@@ -272,4 +284,8 @@ dd {
 dl {
   display: block;
   position: relative;
+}
+
+.bottom {
+  display: block;
 }
