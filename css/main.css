@@ -255,37 +255,66 @@ ol {
   margin: 0;
 }
 
-.left {
-  float: left;
-  display: inline-block;
-  position: relative;
-  font-size: 14px;
-  padding: 0em 0.25em 0em 1em;
-}
-
-.right {
-  float: right;
-  display: inline-block;
-  position: relative;
-  font-size: 14px;
-  padding: 0em 1em 0em 0em;
-}
-
-.middle {
-  display: inline-block;
-  position: relative;
-  font-size: 14px;
-}
-
 dd {
   margin: 0;
 }
 
 dl {
-  display: block;
-  position: relative;
+  padding: 0em 1em 0em 1em
 }
 
 .bottom {
   display: block;
+  text-decoration: none;
+  color: blue;
+}
+
+.none {
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  background-color: lightblue;
+}
+
+@media only screen and (min-width: 37em) {
+
+  footer {
+    text-align: center;
+  }
+  .bottom {
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    padding: 0;
+    width: 33%;
+  }
+
+  .right {
+    float: right;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    padding: 0;
+    width: 33%;
+  }
+
+  .middle {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    width: 33%;
+  }
+
+  dl {
+    display: block;
+    position: relative;
+  }
+
 }
