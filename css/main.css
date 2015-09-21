@@ -279,6 +279,7 @@ dl {
 footer {
   background-color: lightblue;
   font-size: 0.75em;
+  padding: .75em;
 }
 
 @media only screen and (min-width: 21em) {
