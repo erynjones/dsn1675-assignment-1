@@ -39,7 +39,7 @@ img {
 
 h1 {
   text-align: center;
-  font-size: 28px;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -47,14 +47,18 @@ h2 {
   padding: .5em;
   margin: 0;
   clear: both;
-  font-size: 24px;
+  font-size: 1.25em;
 }
 
 h3 {
   margin: 0;
   clear: both;
   padding: .25em .25em .25em 1em;
-  font-size: 18px;
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.75em;
 }
 
 .center {
@@ -72,29 +76,15 @@ nav {
   color: black;
   font-size: 12px;
   background-color: lightblue;
-}
-
-nav li {
-  display: block;
-  width: 25%;
-  float: left;
-  list-style-type: none;
+  text-align: center;
 }
 
 nav a {
-  text-decoration: none;
   display: block;
-  margin: 0;
-  padding: 0;
-  padding: 0.25em 1em 1em 1em;
+  padding: .5em 1em;
   color: black;
-  background-color: lightblue;
-}
-
-nav ol {
-  text-align: center;
-  padding: 0;
-  overflow: hidden;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 figure {
@@ -171,6 +161,7 @@ strong {
 .more a {
   text-decoration: none;
   color: black;
+  font-size: 0.75em;
 }
 
 .btn1 {
@@ -190,9 +181,10 @@ strong {
   text-decoration: none;
   width: inherit;
   background-color: lightblue;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin-left: 1em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  margin-left: .75em;
+  font-size: 0.75em;
 }
 
 .two {
@@ -201,8 +193,9 @@ strong {
   text-decoration: none;
   width: inherit;
   background-color: lightblue;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  font-size: 0.75em;
 }
 
 .three {
@@ -212,9 +205,10 @@ strong {
   text-decoration: none;
   width: inherit;
   background-color: lightblue;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin-left: 1em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  margin-left: .75em;
+  font-size: 0.75em;
 }
 
 .four {
@@ -224,8 +218,9 @@ strong {
   text-decoration: none;
   width: inherit;
   background-color: lightblue;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  font-size: 0.75em;
 }
 
 .btn2 {
@@ -244,6 +239,7 @@ strong {
   color: black;
   text-decoration: none;
   padding: 0.25em;
+  font-size: 0.75em;
 }
 
 li {
@@ -253,14 +249,20 @@ li {
 ol {
   padding: 0em 0em 1em 0em;
   margin: 0;
+  font-size: 0.75em;
 }
 
 dd {
   margin: 0;
+  font-size: 0.75em;
+}
+
+dt {
+  font-size: 0.75em;
 }
 
 dl {
-  padding: 0em 1em 0em 1em
+  padding: 0em 1em 0em 1em;
 }
 
 .bottom {
@@ -276,9 +278,56 @@ dl {
 
 footer {
   background-color: lightblue;
+  font-size: 0.75em;
+}
+
+@media only screen and (min-width: 21em) {
+
+  nav {
+    font-size: 14px;
+  }
+
+  nav li {
+    display: block;
+    width: 25%;
+    float: left;
+    list-style-type: none;
+  }
+
+  nav a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 0.25em 1em 1em 1em;
+    color: black;
+    background-color: lightblue;
+  }
+
+  nav ol {
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-width: 37em) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  nav {
+    font-size: 0.75em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
 
   footer {
     text-align: center;
@@ -317,4 +366,51 @@ footer {
     position: relative;
   }
 
+}
+
+@media only screen and (min-width: 56em) {
+
+  .margin img {
+    width: 50%;
+    display: block;
+    float: left;
+    clear: left;
+  }
+
+  .imgdl {
+    width: 50%;
+    display: block;
+    float: right;
+    clear: right;
+    padding-left: 1em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  nav {
+    font-size: 0.85em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+  }
+
+  ol {
+    text-align: center;
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  footer {
+    margin-top: 3em;
+  }
 }
