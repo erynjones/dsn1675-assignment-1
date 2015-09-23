@@ -498,3 +498,29 @@ footer {
   }
 
 }
+
+
+@media print {
+
+  .more {
+    display: none;
+  }
+
+  .masthead {
+    background-image: url("../images/logo.svg");
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+    background-position: calc(8%) 1.5em 2em;
+  }
+
+  .first {
+    padding: calc(2em + 20vw) 0 0;
+    background: url("../images/seven-wonders.jpg") center center / cover no-repeat;
+    clear: both;
+    text-align: center;
+  }
+
+  .atlantis {
+    background: url("../images/atlantis.jpg") center center / cover no-repeat;
+  }
+}
