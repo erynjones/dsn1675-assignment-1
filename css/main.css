@@ -538,7 +538,8 @@ footer {
   }
 
   .max {
-    max-width: 40em;
+    margin-right: 6em;
+    margin-left: 6em;
   }
 
 }
