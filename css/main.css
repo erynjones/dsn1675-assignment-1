@@ -11,6 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font: normal 100%/1.3 Lora,serif;
 }
 
 *, *::before, *::after {
@@ -34,7 +35,8 @@ img {
   background-image: url("../images/logo.svg");
   background-size: 50px auto;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: calc(8%) 1.5em 2em;
+
 }
 
 h1 {
@@ -452,4 +454,49 @@ footer {
   .four {
     font-size: 1em;
   }
+
+  .masthead {
+    background-size: 70px auto;
+  }
+}
+
+
+@media only screen and (min-width: 68em) {
+
+  .masthead {
+    background-size: 90px auto;
+  }
+  h1 {
+    font-size: 2.75em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  nav {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  footer {
+    font-size: 1.25em;
+  }
+
+  .more a {
+    font-size: 1.25em;
+  }
+
+  .show {
+    font-size: 1.25em;
+  }
+
+  .max {
+    max-width: 40em;
+    margin: 0 auto;
+  }
+
 }
