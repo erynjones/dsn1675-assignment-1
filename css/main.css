@@ -502,25 +502,43 @@ footer {
 
 @media print {
 
+  nav {
+    display: none;
+  }
+
   .more {
     display: none;
   }
 
-  .masthead {
-    background-image: url("../images/logo.svg");
-    background-size: 50px auto;
-    background-repeat: no-repeat;
-    background-position: calc(8%) 1.5em 2em;
+  .imgdl {
+    width: 50%;
+    display: block;
+    float: right;
+    clear: right;
+    padding-left: 1em;
   }
 
-  .first {
-    padding: calc(2em + 20vw) 0 0;
-    background: url("../images/seven-wonders.jpg") center center / cover no-repeat;
-    clear: both;
-    text-align: center;
+  .margin img {
+    width: 50%;
+    display: block;
+    float: left;
+    clear: left;
   }
 
-  .atlantis {
-    background: url("../images/atlantis.jpg") center center / cover no-repeat;
+  .bottom {
+    display: none;
   }
+
+  .none {
+    display: none;
+  }
+
+  .show {
+    display: none;
+  }
+
+  .max {
+    max-width: 40em;
+  }
+
 }
